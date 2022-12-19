@@ -8,6 +8,7 @@ import LogoCamila from "./img/LogoCamila.svg";
 import LogoJesus from "./img/LogoJesus.svg";
 import LogoNicolas from "./img/LogoNicolas.svg";
 import LogoDruck from "./img/LogoDruck.jpeg";
+import LogoSteven from "./img/LogoSteven.png";
 
 // Esta constante devuelve una estructura basica de HTML con los logos de cada participante.
 const Footer = _ => {
@@ -39,6 +40,7 @@ const Footer = _ => {
           <img src={LogoAlejandro} alt="logo Alejandro" />
           <img src={LogoNicolas} alt="logo Nicolas" />
           <img src={LogoDruck} alt="logo Druck" />
+          <img src={LogoSteven} alt="logo Steven" />
         </div>
       </div>
     </div>

@@ -1,36 +1,38 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Delius", cursive;
 }
-.App{
-    position: relative;
+.App {
+  position: relative;
 }
-main{
-    display: grid;
-    grid: 1fr / 1fr 1fr;
-    place-items: center;
-    gap: 30px;
-    width: calc(87% + 30px);;
-    margin: auto;
-    padding: 50px 0;
+main {
+  display: grid;
+  grid: 1fr / 1fr 1fr;
+  place-items: center;
+  gap: 30px;
+  width: calc(87% + 30px);
+  margin: auto;
+  padding: 50px 0;
 }
-.cards_con{
-    width: 90%;
-    height: 509px;
-    display: grid;
-    grid: repeat(3,1fr) / 1fr;
-    align-self: stretch;
-    gap: 20px;
+.cards_con {
+  width: 90%;
+  height: 509px;
+  display: grid;
+  grid: repeat(3, 1fr) / 1fr;
+  align-self: stretch;
+  gap: 20px;
 }
-.green, .red{
-    font-weight: bold;
+.green,
+.red {
+  font-weight: bold;
 }
-.green{
-    color: green;
+.green {
+  color: #0f9f1d;
 }
 
-.red{
-    color: red;
+.red {
+  color: #ff0000;
 }

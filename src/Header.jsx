@@ -31,9 +31,9 @@ export default function Header({ currencys, fun, cur }) {
           ))}
         </select>
         {/* Boton para poder tener la capacidad de cambiar el tema o modo del dash, gracias al evento onClick */}
-        <button className="toogleMode" onClick={toggleTheme}>
+        {/* <button className="toogleMode" onClick={toggleTheme}>
           {theme.img}
-        </button>
+        </button> */}
       </div>
     </header>
   );

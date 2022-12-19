@@ -3,7 +3,7 @@
     grid: 1fr / 100px 1fr;
     place-items: center;
     gap: 10px;
-    background-color: #02735E;
+    background-color: #395B64;
     height: 100%;
     width: 100%;
     border-radius: 20px;
@@ -21,7 +21,7 @@
     width: 70%;
     height: 90%;
     place-self: end center ;
-    background: white;
+    background: #fff;
     border-radius: 5px;
     margin: 0;
 }
@@ -39,14 +39,14 @@
 }
 .price{
     font-size: 1rem;
-    color: white;
+    color: #fff;
 }
 .porcentajes{
     place-self: stretch;
     display: grid;
     place-items: center;
     font-size: 1rem;
-    background-color: white;
+    background-color: #fff;
     border-radius: 5px;
     text-align: center;
 }

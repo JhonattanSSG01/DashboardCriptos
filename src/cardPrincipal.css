@@ -1,9 +1,9 @@
 .cripto-first{
-    background: #02735E;
+    background: #395B64;
     width: 95%;
     max-width: 500px;
     border-radius: 20px;
-    color: white;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -27,8 +27,8 @@
     width: 50px;
 }
 .cripto-title h2:last-of-type{
-    background:white;
-    color: red;
+    background:#fff;
+    color: rgb(255, 0, 0);
     padding: 5px;
     border-radius: 5px;
     display: flex;
@@ -38,7 +38,7 @@
 .cripto-first .graphic{
     position: relative;
     height: 250px;
-    background: white;
+    background: #fff;
     margin: 20px;
     border-radius: 5px;
     padding: 5px;
@@ -55,9 +55,9 @@
     width: 90%;
     margin: auto;
     text-align: center;
-    background: white;
+    background: #fff;
     border-radius: 5px;
     padding: 10px;
-    color: black;
+    color: #000;
     margin-bottom: 20px;
 }

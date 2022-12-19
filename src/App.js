@@ -54,9 +54,6 @@ export default function App() {
           <Header currencys={currency} fun={setSelCur} cur={selCur} />
         </ThemeProvider>
         <main>
-          {/* En el main se viualiza el contenido de las tarjetas principales con sus datos respectivos, la primera moneda que se visualiza es la 
-            primera pocision de la lista(0) la cual se almaceno anteriormente y esta no se visualiza en la tabla de las monedas restantes. */}
-          <CardPrincipal json={coins[0]} cur={selCur} />
           {/* En este apartado se desarrolla un div el cual contiene las monedas restantes despues de la posicion(0) de la lista. */}
           <div className="cards_con">
             {/* El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. */}
@@ -75,6 +72,9 @@ export default function App() {
             })
             }
           </div>
+          {/* En el main se viualiza el contenido de las tarjetas principales con sus datos respectivos, la primera moneda que se visualiza es la 
+            primera pocision de la lista(0) la cual se almaceno anteriormente y esta no se visualiza en la tabla de las monedas restantes. */}
+          <CardPrincipal json={coins[0]} cur={selCur} />
         </main>
         <Convert />{/*  Trae toda la logia del componente convert y se pinta */}
         <TableCoins coins={coins} />{/* Se le pasa las props que es la lista de la monedas que existen */}
