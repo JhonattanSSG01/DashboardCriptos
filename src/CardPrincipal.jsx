@@ -16,12 +16,11 @@ function CardPrincipal({
     price_change_percentage_24h_in_currency,
     price_change_percentage_7d_in_currency,
     price_change_percentage_30d_in_currency,
-    /* price_change_percentage_90d_in_currency, */
     price_change_percentage_1y_in_currency,
   },
   cur = "usd",
 }) {
-  //Retrona un HTML
+  //Retorna un HTML
   return (
     // Las etiquetas especiales llamadas <> </>, ayudan a pintar un componente sin necesidad de que se cree una etiqueta padre.
     <>
@@ -31,13 +30,8 @@ function CardPrincipal({
           {/* Imagen principal de la moneda */}
           <h2>
             {symbol} - {current_price} {cur}
-          </h2>{" "}
+          </h2>
           {/* Simbolo(Abreviacion), precio actual y la moneda seleccionada */}
-          {/* <select name="select-percentage" id="select-percentage">
-                        <option value="value1" selected>12%</option>
-                        <option value="value2">18%</option>
-                        <option value="value3">20%</option>
-                    </select> */}
           <h2>
             <FaPlay
               className={`icon-arrow ${colorDec(
