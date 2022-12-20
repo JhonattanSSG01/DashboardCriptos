@@ -5,7 +5,7 @@ import { deleteDec, colorDec } from "./App"; // Se importa las funciones especif
 import Graph from "./Graph"; // Componente para el tema de visualizacion de la grafica.
 
 /// El export en funciones nombradas, se refiere a que se exporta la sentencia especifica que esta maneje.
-// Coomo parametro se le pasa algunos datos del json que nos trajo la peticion de la API
+// Como parametro se le pasa algunos datos del json que nos trajo la peticion de la API
 function CardPrincipal({
   json: {
     id,

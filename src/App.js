@@ -17,7 +17,7 @@ import { ThemeProvider } from "./Context/ThemeProvider";
 export default function App() {
   /// Estados
   // Se declara constantes con nuevos estados iniciales por defecto.
-  const [coins, setCoins] = useState() // Almacena todos los valores del array(la cantidad de monedaas) que llegue en la variable.
+  const [coins, setCoins] = useState() // Almacena todos los valores del array(la cantidad de monedas) que llegue en la variable.
   const [currency, setCurrency] = useState() // Almacena los nombres de la moneda(el simbolo de cada moneda).
   const [selCur, setSelCur] = useState("usd") // Almacena en la variable el valor que se define en que moneda se visualizara el cambio. Por defecto se le asigna USD(dolar)
   // Consumo de la API(Interfaz de programacion de aplicaiones)
